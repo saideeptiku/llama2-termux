@@ -30,7 +30,7 @@ cd
 cd llama.cpp
 
 ./main -m ./models/llama-2-7b.ggmlv3.q5_0.bin -n 512 -b 1016 -c 1016 --repeat_penalty 1.0 --color -i -r "User:" -f prompts/chat-with-bob.txt
-
+# ./main -m ./models/llama-2-7b.Q4_0.gguf -n 512 -b 1016 -c 1016 --repeat_penalty 1.0 --color -i -r "User:" -f prompts/chat-with-bob.txt
 EOF
 
 chmod +x chat_with_bob_7b.sh
