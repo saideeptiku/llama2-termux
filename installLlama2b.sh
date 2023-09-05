@@ -7,6 +7,10 @@ pkg install clang wget git cmake -y
 git clone https://github.com/ggerganov/llama.cpp.git
 #enter llamma.cpp folder
 cd llama.cpp                                                                                                                                      
+
+# since this project uses an older GGML model format, we revert back to an older version
+git checkout dadbed99e65252d79f81101a392d0d6497b86caa
+
 #start building llamma.cpp (if you get an error try replqcing make with cmake and see if that works)
 make
 
