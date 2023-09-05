@@ -18,7 +18,7 @@ cd models
 
 wget https://huggingface.co/TheBloke/Llama-2-7B-GGML/resolve/main/llama-2-7b.ggmlv3.q5_0.bin
 # if using newer llama.cpp with GGUF file support. use the following:
-wget https://huggingface.co/TheBloke/Llama-2-7B-GGUF/raw/main/llama-2-7b.Q4_0.gguf
+wget https://huggingface.co/TheBloke/Llama-2-7B-GGUF/resolve/main/llama-2-7b.Q4_0.gguf
 
 cd
 
